@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2020_08_25_205210) do
     t.string "last_name"
     t.date "birth_date"
     t.integer "age"
+    t.integer "phone_number"
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"
